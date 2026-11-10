@@ -1,0 +1,40 @@
+HLAVIČKA
+Logo: Zrnko
+Navigácia: Domov | Menu | Kontakt
+
+ÚVODNÁ SEKCIA (hero)
+Nadpis: Káva, ktorá zobudí deň
+Text: Pražíme vlastné zrná a pečieme každé ráno. Príď si sadnúť, nikam sa neponáhľaj.
+Tlačidlo: Pozri menu
+
+KARTY (každá má ikonu, nadpis, text a odkaz)
+
+Karta 1 (ikona: icon-1.svg)
+Nadpis: Espresso
+Text: Hustá, voňavá a krátka. Základ, od ktorého sa začína každý dobrý deň v kaviarni.
+Odkaz: Viac
+
+Karta 2 (ikona: icon-2.svg)
+Nadpis: Filter káva
+Text: Pomaly lúhovaná z čerstvo namletých zrniek. Jemná chuť a čistý dozvuk.
+Odkaz: Viac
+
+Karta 3 (ikona: icon-3.svg)
+Nadpis: Domáce koláče
+Text: Upečené ráno v našej kuchyni. Skús jablkový štrúdľ alebo tvarohový koláč.
+Odkaz: Viac
+
+PÄTA
+
+O nás
+Rodinná kaviareň v centre mesta s vlastným pražením.
+
+Kontakt
+Hlavná 12, Bratislava
+info@zrnko.sk
+
+Sledujte nás
+Facebook
+Instagram
+
+Copyright: © 2026 Kaviareň Zrnko
