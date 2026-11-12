@@ -15,33 +15,40 @@
 
 <body>
     <header>
-        <section class="header">
+        <section class="header_logo">
             <p>Zrnko</p>
         </section>
 
         <section class="header_odkazy">
-            <nav>
-                <a href="http://"> Domov</a>
-                <a href="http://"> Menu</a>
-                <a href="http://"> Kontakt</a>
+            <nav class="header_nav">
+                <a class="header_link" href="#domov">Domov</a>
+                <a class="header_link" href="#menu">Menu</a>
+                <a class="header_link" href="#kontakt">Kontakt</a>
             </nav>
         </section>
     </header>
     <main>
-        <section class="hero" id="domov">
-            <img src="coffe/starter/assets/images/kava-uvod.jpg" alt="obrazok">
+       <section class="hero" id="domov">
+
+            <img src="coffe/starter/assets/images/kava-uvod.jpg" alt="Príprava kávy" class="hero__image">
+
             <div class="hero__content">
-                    <h1 class="hero__title">Káva, ktorá zobudí deň</h1>
 
-                    <p class="hero__text">
-                        Pražíme vlastné zrná a pečieme každé ráno.
-                        Príď si sadnúť, nikam sa neponáhľaj.
-                    </p>
+                <h1 class="hero__title">
+                    Káva, ktorá zobudí deň
+                </h1>
 
-                    <a href="#menu" class="hero__button">
-                        Pozri menu
-                    </a>
+                <p class="hero__text">
+                    Pražíme vlastné zrná a pečieme každé ráno.
+                    Príď si sadnúť, nikam sa neponáhľaj.
+                </p>
+
+                <a href="#menu" class="hero__button">
+                    Pozri menu
+                </a>
+
             </div>
+
         </section>
 
         <section class="menu" id="menu">

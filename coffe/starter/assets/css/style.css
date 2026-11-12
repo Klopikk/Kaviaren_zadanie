@@ -1,0 +1,62 @@
+/* GOOGLE FONTS */
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Roboto+Slab:wght@600;700;800&display=swap');
+
+
+/* CSS PREMENNE */
+:root {
+    --tmava: #21140f;
+    --hneda: #302019;
+    --svetlohneda: #382820;
+    --zlata: #d4a16e;
+    --biela: #f3e9df;
+    --seda: #b9aaa0;
+
+    --font-text: 'DM Sans', sans-serif;
+    --font-nadpis: 'Roboto Slab', serif;
+}
+header {
+    background-color: var(--hneda);
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.header_logo {
+    color: var(--zlata);
+    font-family: var(--font-nadpis);
+    font-size: 1.8rem;
+    font-weight: 700;
+}
+
+.header_logo p {
+    margin: 0;
+}
+
+.header_nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 1.5rem;
+}
+
+.header_link {
+    color: var(--biela);
+    text-decoration: none;
+}
+
+.header_link:hover {
+    color: var(--zlata);
+}
+
+/* DESKTOP */
+
+@media (min-width: 900px) {
+    header {
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 1rem 5%;
+    }
+}
+
